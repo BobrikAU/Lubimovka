@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Formular';
+  src: url(./formular/formular-light.woff2) format('woff2'),
+       url(./formular/formular-light.woff) format('woff'),
+       url(./formular/formular-light.eot) format('eot');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url(./neue_machina/PPNeueMachina-Regular.woff2) format('woff2'),
+       url(./neue_machina/PPNeueMachina-Regular.woff) format('woff'),
+       url(./neue_machina/PPNeueMachina-Regular.ttf) format('truetype'),
+       url(./neue_machina/PPNeueMachina-Regular.eot) format('eot');
+  font-style: normal;
+  font-weight: 400;
+}
+

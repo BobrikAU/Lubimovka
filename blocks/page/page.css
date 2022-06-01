@@ -1,0 +1,10 @@
+.page {
+  max-width: var(--maxWidthPage);
+  min-width: var(--minWidthPage);
+  font-family: 'NeueMachina', 'Formular', Arial, Helvetica, sans-serif;
+  background-color: var(--mainBackground);
+  margin: auto;
+}
+
+
+
