@@ -1,0 +1,9 @@
+.header__social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 255px;
+  padding: 0;
+  margin: 0;
+}

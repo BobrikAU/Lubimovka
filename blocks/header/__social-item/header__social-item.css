@@ -1,0 +1,39 @@
+.header__social-item{
+  list-style: none;
+  position: relative;
+  align-self: center;
+}
+
+/* .header__social-item::before{
+  content:" ";
+  left: -10px;
+  position: absolute;
+  background-image: url("../../../images/link-ellipse-left.svg");
+  background-size: cover;
+  width: 10px;
+  height: 24px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.header__social-item::after{
+  content:"";
+  position: absolute;
+  background-image: url("../../../images/link-ellipse-right.svg");
+  background-size: cover;
+  width: 10px;
+  height: 24px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.header__social-item:hover::before{
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.header__social-item:hover::after{
+  opacity: 1;
+  transition: opacity .3s;
+}
+ */

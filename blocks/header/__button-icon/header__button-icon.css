@@ -1,0 +1,8 @@
+.header__button-icon {
+  background-size: cover;
+  background-image: url(../../../images/link-support-plus.svg);
+  width: 25px;
+  height: 25px;
+  padding: 0;
+
+}

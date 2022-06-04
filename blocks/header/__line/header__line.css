@@ -1,0 +1,6 @@
+.header__line{
+ height: 50px;
+ width: 1px;
+ border-left: 1px solid var(--colorText);
+ align-self: end;
+}
