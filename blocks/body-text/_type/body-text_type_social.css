@@ -1,4 +1,6 @@
-.body-text_type_social{
+.body-text_type_social {
   font-size: 16px;
-line-height: 1.12;
+  line-height: 1.12;
+  font-feature-settings: normal;
+  letter-spacing: normal;
 }
