@@ -1,0 +1,20 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../variables/variables.css);
+@import url(../blocks/page/page.css);
+/*импорты css со стилями текстовых элементов*/
+@import url(../blocks/headline/headline.css);
+@import url(../blocks/headline/_type/headline_type_large.css);
+@import url(../blocks/headline/_type/headline_type_medium.css);
+@import url(../blocks/headline/_type/headline_type_small.css);
+@import url(../blocks/body-text/body-text.css);
+@import url(../blocks/body-text/_type/body-text_type_button.css);
+@import url(../blocks/body-text/_type/body-text_type_caption.css);
+@import url(../blocks/body-text/_type/body-text_type_small-text.css);
+@import url(../blocks/body-text/_type/body-text_type_social.css);
+
+/*импорты для секции Photo-grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);
