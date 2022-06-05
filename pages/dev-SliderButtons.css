@@ -1,0 +1,96 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../variables/variables.css);
+@import url(../blocks/page/page.css);
+/*импорты css со стилями текстовых элементов*/
+@import url(../blocks/headline/headline.css);
+@import url(../blocks/headline/_type/headline_type_large.css);
+@import url(../blocks/headline/_type/headline_type_medium.css);
+@import url(../blocks/headline/_type/headline_type_small.css);
+@import url(../blocks/body-text/body-text.css);
+@import url(../blocks/body-text/_type/body-text_type_button.css);
+@import url(../blocks/body-text/_type/body-text_type_caption.css);
+@import url(../blocks/body-text/_type/body-text_type_small-text.css);
+@import url(../blocks/body-text/_type/body-text_type_social.css);
+
+/*далее импорты для конкретной части страницы, которую разрабатываешь*/
+@import url(../blocks/slider-button/slider-button.css);
+
+.slider-button__frame {
+  position: absolute;
+  bottom: -0.3px;
+  left: 24px;
+  width: 24px;
+  height: 48px;
+  border-radius: 0 48px 48px 0;
+  border-top: 1px solid #242424;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+}
+
+.slider-button__frame_rotate {
+  position: absolute;
+  bottom: -0.3px;
+  left: 24px;
+  width: 24px;
+  height: 48px;
+  border-radius: 0 48px 48px 0;
+  border-top: 1px solid #242424;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  transition: .2s;
+  transform-origin: left;
+}
+
+.slider-button__frame_rotate:hover {
+  animation: .5s linear rotate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.slider-button__arrow {
+  cursor: pointer;
+  position: relative;
+  margin-left: -11px;
+}
+.slider-button__arrow_body {
+  position: relative;
+  top: 24px;
+  width: 17px;
+  height: 1px;
+  background-color: #242424;
+  left:0;
+  display: block;
+}
+.slider-button__arrow_body::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  top: -2.5px;
+  right: -2px;
+  background-color: #242424;
+  transform: rotate(45deg);
+}
+.slider-button__arrow_body::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 1px;
+  top: 2.5px;
+  right: -2px;
+  background-color: #242424;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(-45deg);
+}
+

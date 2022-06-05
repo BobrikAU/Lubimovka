@@ -1,0 +1,13 @@
+.slider-button {
+  cursor: pointer;
+  position: relative;
+  width: 49px;
+  height: 49px;
+  border-radius: 49px;
+  margin: 1px;
+}
+
+.slider-button:hover {
+  background-color: darkgray;
+  transition-delay: 0.5s;
+}
