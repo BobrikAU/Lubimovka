@@ -3,7 +3,16 @@
   max-width: 568px;
   padding-bottom: 40px;
   padding-left: 362px;
+  overflow-wrap: break-word;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .photo-grid__title {
+    padding-left: calc(100vw/4);
+  }
+}
+
 
 @media screen and (max-width: 900px) {
   .photo-grid__title {
