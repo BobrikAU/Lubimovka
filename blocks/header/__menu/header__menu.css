@@ -1,8 +1,36 @@
-.header__menu{
+.header__menu {
   display: flex;
-  width: 910px;
+  width: calc((910 / 1440) * 100vw);
   margin: 0;
   padding: 0;
   align-items: center;
   justify-content: space-around;
+  transform: none;
+  position: relative;
+  right: 0;
+  transition: visibility 0s linear, opacity 0.5s linear, transform 0.5s,
+    right 0s;
+}
+
+@media screen and (min-width: 1441px) {
+  .header__menu {
+    width: 910px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header__menu {
+    visibility: hidden;
+    opacity: 0;
+    right: 30vw;
+    transform: translate(600px) scaleX(0);
+    transition: visibility 0.5s linear 0.5s, opacity 0.5s linear,
+      transform 0.5s cubic-bezier(0, 0.03, 0.2, 1), right 0s 1s;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__menu {
+    display: none;
+  }
 }

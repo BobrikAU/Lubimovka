@@ -1,6 +1,12 @@
-.header__logo{
+.header__logo {
   width: 43px;
   object-fit: contain;
-  margin-left: 30px;
+  margin-left: calc((30 / 1440) * 100vw);
   margin-right: 0;
+}
+
+@media screen and (min-width: 1441px) {
+  .header__logo {
+    margin-left: 30px;
+  }
 }

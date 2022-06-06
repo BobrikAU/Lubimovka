@@ -1,5 +1,5 @@
- .header__social-link::before{
-  content:" ";
+.header__social-link::before {
+  content: " ";
   left: -10px;
   top: -2px;
   position: absolute;
@@ -8,12 +8,11 @@
   width: 10px;
   height: 24px;
   opacity: 0;
-  transition: opacity .3s;
-
+  transition: opacity 0.3s;
 }
 
-.header__social-link::after{
-  content:"";
+.header__social-link::after {
+  content: "";
   position: absolute;
   top: -2px;
   background-image: url("../../../images/link-ellipse-right.svg");
@@ -21,15 +20,15 @@
   width: 10px;
   height: 24px;
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
-.header__social-link:hover::before{
+.header__social-link:hover::before {
   opacity: 1;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
-.header__social-link:hover::after{
+.header__social-link:hover::after {
   opacity: 1;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
