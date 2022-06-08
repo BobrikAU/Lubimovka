@@ -13,3 +13,38 @@
 @import url(../blocks/body-text/_type/body-text_type_small-text.css);
 @import url(../blocks/body-text/_type/body-text_type_social.css);
 
+/*import section About*/
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__caption/about__caption.css);
+@import url(../blocks/about/__duration/about__duration.css);
+@import url(../blocks/about/__heading/about__heading.css);
+@import url(../blocks/about/__history/about__history.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__production/about__production.css);
+@import url(../blocks/about/__projects/about__projects.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__summaries/about__summaries.css);
+@import url(../blocks/about/__summary/about__summary.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__univer/about__univer.css);
+@import url(../blocks/about/__video/about__video.css);
+@import url(../blocks/production/production.css);
+@import url(../blocks/production/__item/production__item.css);
+@import url(../blocks/production/__name/production__name.css);
+@import url(../blocks/production/__worker/production__worker.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__author/play__author.css);
+@import url(../blocks/play/__download/play__download.css);
+@import url(../blocks/play/__info/play__info.css);
+@import url(../blocks/play/__title/play__title.css);
+@import url(../blocks/play/__watch/play__watch.css);
+@import url(../blocks/play/__year/__year.css);
+
+
+
+
+
+
+
+
+
