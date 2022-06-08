@@ -28,6 +28,8 @@
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__univer/about__univer.css);
 @import url(../blocks/about/__video/about__video.css);
+@import url(../blocks/about/__wrapper/about__wrapper.css);
+@import url(../blocks/about/__time/about__time.css);
 @import url(../blocks/production/production.css);
 @import url(../blocks/production/__item/production__item.css);
 @import url(../blocks/production/__name/production__name.css);
@@ -38,7 +40,7 @@
 @import url(../blocks/play/__info/play__info.css);
 @import url(../blocks/play/__title/play__title.css);
 @import url(../blocks/play/__watch/play__watch.css);
-@import url(../blocks/play/__year/__year.css);
+@import url(../blocks/play/__year/play__year.css);
 
 
 

@@ -1,3 +1,13 @@
 .about__projects {
-
+  text-transform: uppercase;
+  height: 32px;
+  width: 120px;
+  border: 1px solid #242424;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  margin-left: 30px;
+  margin-top: 32px;
 }
