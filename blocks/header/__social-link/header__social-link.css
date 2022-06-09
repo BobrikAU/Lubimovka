@@ -1,4 +1,8 @@
-.header__social-link::before {
+.header__social-link {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+/*.header__social-link::before {
   content: " ";
   left: -10px;
   top: -2px;
@@ -11,7 +15,7 @@
   transition: opacity 0.3s;
 }
 
-.header__social-link::after {
+ .header__social-link::after {
   content: "";
   position: absolute;
   top: -2px;
@@ -26,9 +30,9 @@
 .header__social-link:hover::before {
   opacity: 1;
   transition: opacity 0.3s;
-}
+} */
 
-.header__social-link:hover::after {
-  opacity: 1;
+.header__social-link:hover {
+  opacity: .7;
   transition: opacity 0.3s;
 }

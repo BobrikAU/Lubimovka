@@ -9,9 +9,11 @@
   margin-right: 10px;
   transform: none;
   transition: visibility 0s linear, opacity 0.5s linear, transform 0.5s;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
-.header__button::before {
+/* .header__button::before {
   content: " ";
   background-image: url("../../../images/link-ellipse-left.svg");
   background-size: cover;
@@ -35,9 +37,9 @@
   opacity: 1;
   transition: opacity 0.3s;
 }
-
-.header__button:hover::after {
-  opacity: 1;
+*/
+.header__button:hover {
+  opacity: .7;
   transition: opacity 0.3s;
 }
 
