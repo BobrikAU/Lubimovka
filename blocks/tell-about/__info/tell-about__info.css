@@ -1,0 +1,28 @@
+.tell-about__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 666px;
+  position: relative;
+  margin: 57px 0 0 calc((362 / 1440) * 100%);
+}
+
+@media screen and (max-width: 1200px) {
+  .tell-about__info {
+    margin-left: calc((250 / 1200) * 100%);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .tell-about__info {
+    margin-left: calc((100 / 900) * 100%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tell-about__info {
+    justify-content: space-between;
+    height: 160px;
+    max-width: 363px;
+    margin: 25px auto 0 25px;
+  }
+}

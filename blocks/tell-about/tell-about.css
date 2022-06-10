@@ -1,0 +1,12 @@
+.tell-about {
+  margin-top: 100px;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 600px) {
+  .tell-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
