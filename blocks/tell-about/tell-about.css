@@ -1,5 +1,5 @@
 .tell-about {
-  margin-top: 100px;
+  margin-top: 64px;
   max-width: 1440px;
 }
 
@@ -8,5 +8,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0;
   }
 }
