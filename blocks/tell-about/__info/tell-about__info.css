@@ -21,7 +21,7 @@
 @media screen and (max-width: 767px) {
   .tell-about__info {
     justify-content: space-between;
-    height: 160px;
+    min-height: 160px;
     max-width: 363px;
     margin: 25px auto 0 25px;
   }
