@@ -10,36 +10,21 @@
   transform: none;
   transition: visibility 0s linear, opacity 0.5s linear, transform 0.5s;
   opacity: 1;
-  transition: opacity 0.3s;
 }
 
-/* .header__button::before {
+.header__button::before {
   content: " ";
-  background-image: url("../../../images/link-ellipse-left.svg");
   background-size: cover;
-  width: 10px;
-  height: 24px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.header__button::after {
-  content: "";
-  background-image: url("../../../images/link-ellipse-right.svg");
-  background-size: cover;
-  width: 10px;
-  height: 24px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.header__button:hover::before {
+  background-image: url(../../../images/link-support-plus.svg);
+  width: 25px;
+  height: 25px;
+  padding: 0;
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
-*/
+
 .header__button:hover {
-  opacity: .7;
+  opacity: 0.7;
   transition: opacity 0.3s;
 }
 
