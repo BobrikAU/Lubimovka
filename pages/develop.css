@@ -14,3 +14,11 @@
 @import url(../blocks/body-text/_type/body-text_type_social.css);
 
 /*далее импорты для конкретной части страницы, которую разрабатываешь*/
+
+/*Секция рассказать о пьесе*/
+@import url(../blocks/tell-about/tell-about.css);
+@import url(../blocks/tell-about/__image/tell-about__image.css);
+@import url(../blocks/tell-about/__info/tell-about__info.css);
+@import url(../blocks/tell-about/__links/tell-about__links.css);
+@import url(../blocks/tell-about/__link/tell-about__link.css);
+@import url(../blocks/tell-about/__text/tell-about__text.css);

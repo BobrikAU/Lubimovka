@@ -1,0 +1,16 @@
+.tell-about__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  right: 261px;
+  top: -17px;
+}
+
+@media screen and (max-width: 767px) {
+  .tell-about__links {
+    position: static;
+  }
+}

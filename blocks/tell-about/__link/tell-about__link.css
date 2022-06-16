@@ -1,0 +1,10 @@
+.tell-about__link {
+  width: 53px;
+  height: 25px;
+  box-sizing: border-box;
+  border: 1px solid #242424;
+  border-style: none none solid solid;
+}
+.tell-about__link:last-child {
+  width: 62px;
+}
