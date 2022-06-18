@@ -1,20 +1,23 @@
 .header__menu {
   display: flex;
-  width: calc((910 / 1440) * 100vw);
+  width: calc((862 / 1440) * 100vw);
   margin: 0;
-  padding: 0;
+  padding: 0 calc((41 / 1440) * 100vw) 0 calc((43 / 1440) * 100vw);
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   transform: none;
   position: relative;
   right: 0;
   transition: visibility 0s linear, opacity 0.5s linear, transform 0.5s,
     right 0s;
+  height: 50px;
+  border-right: 1px solid #242424;
 }
 
 @media screen and (min-width: 1441px) {
   .header__menu {
-    width: 910px;
+    width: 862px;
+    padding: 0 41px 0 43px;
   }
 }
 

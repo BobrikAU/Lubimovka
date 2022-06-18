@@ -1,11 +1,12 @@
 .header {
-  min-height: 61px;
   border-bottom: 1px solid #242424;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   transition: border-bottom 0.5s linear;
+  padding-top: 11px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1200px) {
