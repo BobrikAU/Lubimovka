@@ -1,0 +1,16 @@
+.reviews__control{
+  grid-column: 4;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .reviews__control {
+    grid-column: 3;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reviews__control {
+    padding: 4px 0 0 1px;
+  }
+}

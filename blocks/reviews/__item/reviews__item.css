@@ -1,0 +1,7 @@
+.reviews__item{
+  margin-right: var(--reviewsMarginRight);
+}
+
+.reviews__item:last-of-type{
+  margin-right: 0;
+}

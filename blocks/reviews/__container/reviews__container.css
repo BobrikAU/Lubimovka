@@ -1,0 +1,21 @@
+.reviews__container{
+  padding: 33px 30px 27px;
+  margin: 0;
+  max-width: var(--reviewsWidth);
+  min-height: 361px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .reviews__container {
+    width: var(--reviewsWidth);
+    padding-bottom: 80px;
+    padding: 0 26px 103px;
+    min-height: 328px;
+  }
+}

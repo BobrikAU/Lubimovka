@@ -1,5 +1,31 @@
 :root {
   --mainBackground: #ecebe8;
+  --black: #242424;
   --maxWidthPage: 1440px;
   --minWidthPage: 414px;
+  --reviewsWidth: 420px;
+  --reviewsMarginRight: 30px;
+  --numberOfReviews:5;
+  --reviewsListWidth: calc((var(--reviewsWidth) + var(--reviewsMarginRight)) * var(--numberOfReviews) - var(--reviewsMarginRight));
+}
+
+@media screen and (max-width: 1439px) {
+  :root {
+    --reviewsWidth: calc((100vw - 120px) * 0.318182);
+    --reviewsMarginRight: calc((100vw - 120px) * 0.0228);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --reviewsWidth: calc((100vw - 120px) * 0.4886);
+    --reviewsMarginRight: calc((100vw - 120px) * 0.0228);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --reviewsWidth: 100vw;
+    --reviewsMarginRight: 0;
+  }
 }
