@@ -1,0 +1,10 @@
+.reviews__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  width: var(--reviewsListWidth);
+  position: relative;
+  transition: left 1s;
+}

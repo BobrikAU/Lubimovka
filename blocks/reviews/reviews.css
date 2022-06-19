@@ -1,0 +1,24 @@
+.reviews {
+  width: calc(100% - 120px);
+  box-sizing: content-box;
+  padding: 111px 60px 0;
+  display: grid;
+  grid-template-rows: 104px auto;
+  grid-template-columns: calc(55.9% - 436px) 1fr 29px calc(55.62% - 313px);
+  overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .reviews {
+    grid-template-columns: 1fr 29px 121px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reviews {
+    padding: 74px 0 0;
+    width: 100%;
+    grid-template-columns: 23px 1fr 148px;
+    grid-template-rows: 91px 72px auto;
+  }
+}

@@ -1,0 +1,35 @@
+.reviews__control-animation{
+  width: 96px;
+  height: 20px;
+  grid-row: 1;
+  grid-column: 2;
+  justify-self: end;
+  background-image: url(../../../images/ellipse-selected.svg),
+                    url(../../../images/ellipse-empty.svg),
+                    url(../../../images/ellipse-empty.svg),
+                    url(../../../images/ellipse-empty.svg),
+                    url(../../../images/ellipse-empty.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, 24px, 46px, 68px, 90px;
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 900px) {
+  .reviews__control-animation {
+    grid-column: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reviews__control-animation {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-self: start;
+    width: 100vw;
+    margin-top: 0;
+    box-sizing: border-box;
+    height: 72px;
+    background-color: white;
+    background-position: 29px, 53px, 75px, 97px, 119px;
+  }
+}

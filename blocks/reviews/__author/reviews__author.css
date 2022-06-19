@@ -1,0 +1,7 @@
+.reviews__author{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 53px;
+}
+
