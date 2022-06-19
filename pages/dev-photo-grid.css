@@ -12,3 +12,9 @@
 @import url(../blocks/body-text/_type/body-text_type_caption.css);
 @import url(../blocks/body-text/_type/body-text_type_small-text.css);
 @import url(../blocks/body-text/_type/body-text_type_social.css);
+
+/*импорты для секции Photo-grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);

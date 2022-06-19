@@ -1,0 +1,19 @@
+.tell-about__image {
+  max-width: 100%;
+  padding: 0 60px;
+  box-sizing: border-box;
+  object-fit: contain;
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .tell-about__image {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tell-about__image {
+    object-fit: cover;
+    min-height: 252px;
+    padding: 0;
+  }
+}
