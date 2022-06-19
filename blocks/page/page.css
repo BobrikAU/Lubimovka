@@ -1,7 +1,7 @@
 .page {
   max-width: var(--maxWidthPage);
   min-width: var(--minWidthPage);
-  font-family: 'NeueMachina', 'Formular', Arial, Helvetica, sans-serif;
+  font-family: "NeueMachina", "Formular", Arial, Helvetica, sans-serif;
   background-color: var(--mainBackground);
   margin: auto;
   color: #242424;
@@ -11,6 +11,3 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-
-
-

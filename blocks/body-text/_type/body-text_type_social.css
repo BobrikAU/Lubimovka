@@ -3,4 +3,6 @@
   line-height: 1.12;
   font-feature-settings: normal;
   letter-spacing: normal;
+  text-decoration: none;
+  color: var(--colorText);
 }
