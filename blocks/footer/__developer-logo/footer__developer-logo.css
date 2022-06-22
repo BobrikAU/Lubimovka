@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+  .footer__developer-logo {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 900px) {
+  .footer__partner-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

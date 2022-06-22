@@ -1,0 +1,10 @@
+.footer__developer_type_layout {
+  width: 207px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__developer_type_layout {
+    width: 242px;
+  }
+}

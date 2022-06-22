@@ -1,0 +1,9 @@
+.footer__developer_type_design {
+  width: 179px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__developer_type_design {
+    margin-bottom: 16px;
+  }
+}

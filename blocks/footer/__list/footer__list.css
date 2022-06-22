@@ -1,0 +1,13 @@
+.footer__list {
+  display: grid;
+  row-gap: 15px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__list {
+    row-gap: 13px;
+    font-size: 18px;
+    line-height: 1.28;
+  }
+}

@@ -1,0 +1,9 @@
+.footer__address-section {
+  margin-bottom: 19px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__address-section {
+    margin-bottom: 10px;
+  }
+}
