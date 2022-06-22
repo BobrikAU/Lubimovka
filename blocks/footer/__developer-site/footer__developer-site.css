@@ -1,0 +1,10 @@
+.footer__developer-site {
+  text-decoration: none;
+  color: #242424;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__developer-site {
+    text-decoration: underline;
+  }
+}

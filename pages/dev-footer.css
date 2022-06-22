@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../variables/variables.css);
+@import url(../blocks/page/page.css);
+/*импорты css со стилями текстовых элементов*/
+@import url(../blocks/headline/headline.css);
+@import url(../blocks/headline/_type/headline_type_large.css);
+@import url(../blocks/headline/_type/headline_type_medium.css);
+@import url(../blocks/headline/_type/headline_type_small.css);
+@import url(../blocks/body-text/body-text.css);
+@import url(../blocks/body-text/_type/body-text_type_button.css);
+@import url(../blocks/body-text/_type/body-text_type_caption.css);
+@import url(../blocks/body-text/_type/body-text_type_small-text.css);
+@import url(../blocks/body-text/_type/body-text_type_social.css);
+
+/*далее импорты для конкретной части страницы, которую разрабатываешь*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__address-location/footer__address-location.css);
+@import url(../blocks/footer/__address-section/footer__address-section.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__column/_type/footer__column_type_festival.css);
+@import url(../blocks/footer/__column/_type/footer__column_type_lubimovka.css);
+@import url(../blocks/footer/__column/_type/footer__column_type_projects.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__copy-privacy/footer__copy-privacy.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__developer-logo/footer__developer-logo.css);
+@import url(../blocks/footer/__developer-site/footer__developer-site.css);
+@import url(../blocks/footer/__developer/footer__developer.css);
+@import url(../blocks/footer/__developer/_type/footer__developer_type_design.css);
+@import url(../blocks/footer/__developer/_type/footer__developer_type_layout.css);
+@import url(../blocks/footer/__developers/footer__developers.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__partner-text/footer__partner-text.css);
+@import url(../blocks/footer/__partner-with-text/footer__partner-with-text.css);
+@import url(../blocks/footer/__partner/_type/footer__partner_type_1.css);
+@import url(../blocks/footer/__partner/_type/footer__partner_type_2.css);
+@import url(../blocks/footer/__partner/_type/footer__partner_type_3.css);
+@import url(../blocks/footer/__partner/_type/footer__partner_type_4.css);
+@import url(../blocks/footer/__partners-heading/footer__partners-heading.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__privacy/footer__privacy.css);

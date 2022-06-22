@@ -1,0 +1,23 @@
+.footer__columns {
+  grid-area: columns;
+  display: grid; 
+  grid-template-columns: minmax(120px,181px) minmax(120px,175px) 189px;
+  grid-template-areas: "lubimovka festival projects";
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__columns {
+     grid-template-columns: minmax(152px,250px) minmax(141px,250px) minmax(152px, 250px); 
+     margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__columns {
+    grid-template-columns: minmax(124px,250px) minmax(180px,250px);
+    grid-template-rows: 220px 239px;
+    grid-template-areas: "lubimovka festival"
+    "projects projects";
+  }
+}

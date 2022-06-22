@@ -1,0 +1,35 @@
+.footer {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 174px minmax(50px, 573px) minmax(368px,568px);
+  grid-template-rows: 100px 209px 86px;
+  grid-template-areas:
+  "logo partners partners"
+  ". address columns"
+  ". copy-privacy developers";
+  padding: 42px 92px 56px 32px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer{
+    grid-template-areas:
+      "logo partners partners"
+      "address address columns"
+      "copy-privacy copy-privacy developers";
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 111px 132px 1fr 373px 135px 85px;
+    grid-template-areas:
+    "logo"
+    "address"
+    "columns"
+    "partners"
+    "copy-privacy"
+    "developers";
+    padding: 56px 0 74px 0;
+  }
+}

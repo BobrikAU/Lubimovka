@@ -1,0 +1,9 @@
+.footer__logo {
+  grid-area: logo;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__logo {
+    margin-left: 58px;
+  }
+}

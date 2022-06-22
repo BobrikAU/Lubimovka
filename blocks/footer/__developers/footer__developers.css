@@ -1,0 +1,14 @@
+.footer__developers {
+  grid-area: developers;
+  display: flex;
+  align-self: end;
+  justify-self: end;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__developers {
+    flex-direction: column;
+    justify-self: start;
+    margin-left: 28px;
+  }
+}

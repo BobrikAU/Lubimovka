@@ -1,0 +1,15 @@
+.footer__partners {
+  grid-area: partners;
+  display: grid;
+  margin-top: 6px;
+  grid-template-columns: 145px 122px 120px 94px 97px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__partners {
+    grid-template-columns: 195px 185px;
+    grid-template-rows: 94px 122px;
+    margin: 77px auto 0;
+    align-items: center;
+  }
+}
